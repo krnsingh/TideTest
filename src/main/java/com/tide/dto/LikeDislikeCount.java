@@ -1,11 +1,11 @@
-package com.tide.test.service.dto;
+package com.tide.dto;
 
-public class ReactionCounts {
+public class LikeDislikeCount {
 
-    private long likes;
-    private long dislikes;
+    private final long likes;
+    private final long dislikes;
 
-    public ReactionCounts(long likes, long dislikes) {
+    public LikeDislikeCount(final long likes, final long dislikes) {
         this.likes = likes;
         this.dislikes = dislikes;
     }
